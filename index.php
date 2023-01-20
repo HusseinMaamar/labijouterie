@@ -8,6 +8,7 @@ if(isset($_GET['action']) && $_GET['action']=='deco'){
 $resultat = executeRequete("SELECT * FROM product");
 
 //debug($resultat);
+// test commentaire
 
 $products = $resultat->fetchAll(PDO::FETCH_ASSOC);// 
 //debug($products);
